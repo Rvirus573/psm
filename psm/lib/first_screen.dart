@@ -14,7 +14,7 @@ class FirstScreen extends StatelessWidget {
     final counterProvider = Provider.of<Counter>(context);
     return Scaffold(
       appBar: AppBar(
-        title: const Text("First Screen"),
+        title: const Text("First Screen Counter App"),
       ),
       body: SafeArea(
           child: Center(
